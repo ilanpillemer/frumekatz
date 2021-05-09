@@ -1,8 +1,10 @@
 \documentclass{article}
+%\usepackage[margin=2in]{geometry}
 \usepackage[osf,p]{libertinus}
 \usepackage{microtype}
 \usepackage[pdfusetitle,hidelinks]{hyperref}
-\usepackage[series={},nocritical,noend,nofamiliar,noledgroup]{reledmac}
+
+\usepackage[series={A,B,C}]{reledmac}
 \usepackage{reledpar}
 
 \usepackage{graphicx}
@@ -12,35 +14,54 @@
 \gappto\captionshebrew{\renewcommand\chaptername{קאַפּיטל}}
 \usepackage{metalogo}
 
-\linenumincrement*{1}
-\firstlinenum*{1}
-\setlength{\Lcolwidth}{0.44\textwidth}
-\setlength{\Rcolwidth}{0.44\textwidth}
+
+%%linenumincrement*{1}
+%%\firstlinenum*{1}
+%%\setlength{\Lcolwidth}{0.44\textwidth}
+%%\setlength{\Rcolwidth}{0.44\textwidth}
 
 \begin{document}
-
-\title{The Devout Cat \\ קאַץ פֿרומע די}
+%%\maxhnotesA{0.8\textheight}
+\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+\title{The \emph{Frum} Cat \\ קאַץ פֿרומע די}
 \author{YL Peretz\\Translated by Ilan Pillemer}
 \date{\today}
 
 \maketitle
-\pstartnumfalse
+\abstract{
+Y.L. Peretz (1851-1915) published this parable in 1906 in his collected writings. He was born in Zamosc, Poland and lived in Warsaw from the 1880s.
+I found two variants of the Yiddish text, the variant in the text book College Yiddish when it uses different phrases, those have been placed in the side margin.
+}
+\newline
 \begin{pairs}
 
 \begin{Rightside}
+
 \begin{RTL}
 \begin{hebrew}
 \beginnumbering
 
 
 \pstart
-דרײַ זינגלפֿײגעלעך זײַנען געװען אין אײן שטוב, און אַלע דרײַ, אײנס נאָכן צװײטן - האָט די קאַץ צורעכט געמאַכט...
+דרײַ זינגלפֿײגעלעך זײַנען געװען אין אײן שטוב,\ledsidenote{
+אין אײן הויז
+}
+ און אַלע דרײַ, אײנס נאָכן צװײטן - האָט די קאַץ צורעכט געמאַכט...
 \pend
 \pstart
-עס איז קײן אײנפֿאַכע קאַץ נישט געװען, נאָר אַן אמת, אמת פֿרומע נשמה.
+עס איז קײן אײנפֿאַכע קאַץ\ledsidenote{
+פּשוטע קאַץ
+}
+ נישט געװען, נאָר אַן אמת, אמת פֿרומע נשמה.
 \pend
 \pstart
 עס איז אַ פֿרומע קאַץ, אַ טבֿילה-קאַץ געװען! צען מאָל אין טאָג האָט זי זיך געװאַשן, און געגעסן האָט זי שטיל, ערגעץ אין אַ זײַט, אין אַ װינקעלע...
+\pend
+\pstart
+אַ גאַנצן טאָג האָט זי געכאַפּט\ledsidenote{
+האָט זי איבערגעביסן עפּעס מילכיקס
+}
+ װאָס עס איז מילכיקס, און ערשט אַז די נאַכט איז צוגעפֿאַלן, האָט זי געגעסן פּלײַש, כּשר מויזן-פֿלײַש...
 \pend
 \endnumbering
 \end{hebrew}
@@ -54,16 +75,33 @@
 \begin{english}
 \beginnumbering
 \pstart
-Three dear songbirds had been in one house, and all three, one after the other - had been finished off by the cat...
+Three dear darling songbirds had been in one house, and all three, one after the other - had been finished off by the cat...
 \pend
 \pstart
-It was no ordinary cat, but a truly, truly devout soul. 
+It was no ordinary cat, but a truly, truly \emph{frum}\footnoteA{The word \emph{frum} refers to what Matthew Arnold names in his 
+book ``Culture and Anarchy'' as Hebraism. 
+ In the definition of Hebraism ``man's perfection or salvation'' is sought and that perfection is achieved by finding a way 
+ of living such ``that we might be partakers of the divine nature''.  In Hebraism, that is in being \emph{frum},  it is through right
+ acting that is achieved. As it is said in the \emph{frum} tradition ``He that keepeth the law, happy is he;'' ``Blessed is the man 
+ that feareth the Eternal, that  delighteth greatly in his commandments.'' And then as Arnold emphasises ``- that is the Hebrew notion
+ of felicity; and pursued with passion and tenacity, this notion would not let the Hebrew rest till, as is well known, he had at last
+ got out of the law a network of prescriptions to enwrap his whole life, to govern every moment of it, every impulse, every action".
+ [Culture and Anarchy, p131, Cambridge University Press, 1960].}
+ soul. 
 \pend
 \pstart
-It was a devout cat, a tevilah\textsuperscript{1}-cat!
-Ten times a day, she washed herself, and then she ate quietly, once in a while, in a little corner.
+It was a \emph{frum} cat, a tevilah\footnoteA {Tevilah refers to traditional religious bathing in living water.
+  Due to the religious notion that the observances, the rules that determine right acting should be celebrated as much
+  as possible - the more devout \emph{frum} individual may ritually immerse themselves daily, or even multiple times a day 
+  in some mystical circles. As it is through tevila, with living flowing water, that impurities are cleansed from the soul as much as from the body.
+  }-cat!
+Ten times a day, she washed herself, and then she ate quietly, once in a while, in a little corner...
 \pend
- \footnote{Tevilah refers to both the traditional religiously required bathing in flowing water or a Mikvah, as well as the traditional and also religiously required cleaning of the hands through the pouring of water before eating a meal.} 
+\pstart 
+All day long she would have quick milchik\footnoteA  {Milchik refers to the complex set of laws that determines whether any item of food is milchik. Any item (and food utensil) is considered to be treif (non-kosher), milchik, parev, or fleishik. And certain foods although technically parev are associated to milchik such as fish. Jewish law has complex rules around separating anything contaminated to be milk (or milk-like) with anything considered to be ``contaminated'' by meat. Some foods become milchik or fleishik simply by what has been cooked previously in the pot it was cooked in. An onion for example is considered to absorb the nature of what the pot is used to cook. This word thus cannot simply be translated as dairy.} 
+ snacks, and only once night set did she eat meat, kosher mouse meat\footnoteA{Mice are not actually kosher as per Halacha, and cannot be eaten by someone who is ``frum''. Only animals with cloven hooves and that chew the cud are kosher. Pigs, mice, cats, dogs and bears for example are ``treif'' and not kosher.}...
+ \pend
+
 \endnumbering
 \end{english}
 \end{Leftside}
